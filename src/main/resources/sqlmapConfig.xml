@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+ <!--   &lt;!&ndash; 设置别名&ndash;&gt;
+    <typeAliases>
+        &lt;!&ndash;指定扫描包&ndash;&gt;
+        <package name=""/>
+    </typeAliases>-->
+ <mappers>
+     <!--<mapper resource="mybatis/userMapper.xml"/>
+     <mapper resource="mybatis/OrderMapper.xml"/>-->
+     <mapper resource="mybatis/ItemMapper.xml"/>
+ </mappers>
+
+</configuration>
